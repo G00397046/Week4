@@ -22,3 +22,5 @@ public class Calc2022 {
         System.out.printf("The total is " + total);
     }
 
+}
+
