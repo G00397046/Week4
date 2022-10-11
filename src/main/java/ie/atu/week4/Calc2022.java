@@ -21,7 +21,7 @@ public class Calc2022 {
 
 
             int total = firstNumber + secondNumber;
-            System.out.println(" your total is :" + total );
+            System.out.println("Your total is :" + total );
 
         }
 
