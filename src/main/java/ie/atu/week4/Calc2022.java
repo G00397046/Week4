@@ -6,6 +6,7 @@ public class Calc2022 {
 
         public static void main (String[] args) {
             delete();
+            add();
         }
 
         public static void delete() {
@@ -24,5 +25,19 @@ public class Calc2022 {
             System.out.println(" your total is :" + total );
 
         }
+
+    public static void add() {
+        System.out.println("Please enter the first number to add: ");
+        Scanner inputs = new Scanner(System.in);
+
+        int firstNumber = inputs.nextInt();
+
+        System.out.println("Please enter a second number to add: ");
+        int secondNumber = inputs.nextInt();
+
+        int total = firstNumber + secondNumber;
+        System.out.printf("The total of both numbers: " + total);
+
+    }
 
     }
