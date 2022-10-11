@@ -36,5 +36,5 @@ public static void delete() {
         int total = firstnNumber - secondNumber;
     System.out.println(" your total is :" + total );
 
-}
+    }
 }
